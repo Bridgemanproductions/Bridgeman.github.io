@@ -1,0 +1,41 @@
+*{
+    Margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    background: linear-gradient(rgb(217, 223, 222),orange)
+}
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: #252525;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 2.4rem;
+}
+.blog-heading strong{
+    color: #070707;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+.card{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(10, 11, 11);
+    
+}
+.image{
+    float: left;
+    align-items: center;
+}
+.content{
+    border-style: solid;
+    border-width: 3px;
+}
